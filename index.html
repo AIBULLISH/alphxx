@@ -3,194 +3,189 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>$ALPHX – Pump.fun vs Four.meme</title>
+<title>Pump.fun vs Four.meme</title>
 
 <style>
-    body {
-        margin:0;
-        background:#000;
-        color:#fff;
-        font-family:Arial, sans-serif;
-    }
+    body {
+        margin:0;
+        background:#000;
+        color:#fff;
+        font-family:Arial, sans-serif;
+    }
 
-    /* TOP BANNER */
-    .top-banner img {
-        width:100%;
-        height:auto;
-        display:block;
-        margin:0 auto;
-    }
+    /* TOP BANNER */
+    .top-banner img {
+        width:100%;
+        height:auto;
+        display:block;
+        margin:0 auto;
+    }
 
-    .container {
-        width:100%;
-        max-width:1500px;
-        margin:auto;
-        padding:60px 20px;
-    }
+    .container {
+        width:100%;
+        max-width:1500px;
+        margin:auto;
+        padding:60px 20px;
+    }
 
-    h1 {
-        text-align:center;
-        font-size:52px;
-        margin-bottom:50px;
-        letter-spacing:2px;
-        text-shadow:0 0 20px #0f0, 0 0 40px #0f0;
-    }
+    h1 {
+        text-align:center;
+        font-size:52px;
+        margin-bottom:50px;
+        letter-spacing:2px;
+        text-shadow:0 0 20px #0f0, 0 0 40px #0f0;
+    }
 
-    .row {
-        display:flex;
-        gap:50px;
-        justify-content:space-between;
-        align-items:flex-start;
-    }
+    .row {
+        display:flex;
+        gap:50px;
+        justify-content:space-between;
+        align-items:flex-start;
+    }
 
-    .col {
-        flex:1;
-        background:linear-gradient(180deg,#0a0a0a 0%, #111 100%);
-        padding:30px;
-        border-radius:20px;
-        box-shadow:0 0 25px rgba(0,255,120,0.25),
-                    inset 0 0 20px rgba(0,255,120,0.1);
-        border:1px solid rgba(0,255,120,0.2);
-        transition:0.25s ease;
-    }
+    .col {
+        flex:1;
+        background:linear-gradient(180deg,#0a0a0a 0%, #111 100%);
+        padding:30px;
+        border-radius:20px;
+        box-shadow:0 0 25px rgba(0,255,120,0.25),
+                    inset 0 0 20px rgba(0,255,120,0.1);
+        border:1px solid rgba(0,255,120,0.2);
+        transition:0.25s ease;
+    }
 
-    .col:hover {
-        transform:scale(1.03);
-        box-shadow:0 0 40px rgba(0,255,120,0.4),
-                    inset 0 0 30px rgba(0,255,120,0.15);
-    }
+    .col:hover {
+        transform:scale(1.03);
+        box-shadow:0 0 40px rgba(0,255,120,0.4),
+                    inset 0 0 30px rgba(0,255,120,0.15);
+    }
 
-    h2 {
-        font-size:30px;
-        margin-bottom:20px;
-        text-align:center;
-        text-shadow:0 0 15px rgba(0,255,255,0.4);
-    }
+    h2 {
+        font-size:30px;
+        margin-bottom:20px;
+        text-align:center;
+        text-shadow:0 0 15px rgba(0,255,255,0.4);
+    }
 
-    /* LOGOS */
-    .logo-box {
-        width:140px;
-        margin:0 auto 20px auto;
-    }
+    /* LOGOS */
+    .logo-box {
+        width:140px;
+        margin:0 auto 20px auto;
+    }
 
-    .logo-box img {
-        width:100%;
-        border-radius:12px;
-        box-shadow:0 0 25px #00ffe7;
-    }
+    .logo-box img {
+        width:100%;
+        border-radius:12px;
+        box-shadow:0 0 25px #00ffe7;
+    }
 
-    iframe {
-        width:100%;
-        height:450px;
-        border:none;
-        border-radius:16px;
-        box-shadow:0 0 20px rgba(0,255,255,0.3);
-    }
+    iframe {
+        width:100%;
+        height:450px;
+        border:none;
+        border-radius:16px;
+        box-shadow:0 0 20px rgba(0,255,255,0.3);
+    }
 
-    .copy-box {
-        background:#1a1a1a;
-        padding:14px;
-        border-radius:12px;
-        margin-top:15px;
-        border:1px solid #333;
-        cursor:pointer;
-        font-size:14px;
-        transition:0.2s ease;
-        word-break:break-all;
-    }
+    .copy-box {
+        background:#1a1a1a;
+        padding:14px;
+        border-radius:12px;
+        margin-top:15px;
+        border:1px solid #333;
+        cursor:pointer;
+        font-size:14px;
+        transition:0.2s ease;
+        word-break:break-all;
+    }
 
-    .copy-box:hover {
-        background:#222;
-        border-color:#0f0;
-        box-shadow:0 0 12px #0f0;
-    }
+    .copy-box:hover {
+        background:#222;
+        border-color:#0f0;
+        box-shadow:0 0 12px #0f0;
+    }
 
-    .btn {
-        display:inline-block;
-        margin-top:20px;
-        padding:14px 22px;
-        background:#0f0;
-        color:#000;
-        border-radius:12px;
-        text-decoration:none;
-        font-weight:bold;
-        font-size:16px;
-        box-shadow:0 0 15px #0f0;
-        transition:0.2s ease;
-    }
+    .btn {
+        display:inline-block;
+        margin-top:20px;
+        padding:14px 22px;
+        background:#0f0;
+        color:#000;
+        border-radius:12px;
+        text-decoration:none;
+        font-weight:bold;
+        font-size:16px;
+        box-shadow:0 0 15px #0f0;
+        transition:0.2s ease;
+    }
 
-    .btn:hover {
-        box-shadow:0 0 25px #0f0;
-        transform:scale(1.05);
-    }
+    .btn:hover {
+        box-shadow:0 0 25px #0f0;
+        transform:scale(1.05);
+    }
 
-    .btn-blue {
-        background:#00aaff;
-        box-shadow:0 0 15px #00aaff;
-    }
+    .btn-blue {
+        background:#00aaff;
+        box-shadow:0 0 15px #00aaff;
+    }
 
-    .btn-blue:hover {
-        box-shadow:0 0 25px #00aaff;
-    }
+    .btn-blue:hover {
+        box-shadow:0 0 25px #00aaff;
+    }
 </style>
 </head>
 
 <body>
 
-<!-- TOP BANNER -->
 <div class="top-banner">
-    <img src="alphx-banner.png" alt="ALPHX Banner">
+    <img src="alphx-banner.png" alt="ALPHX Banner">
 </div>
 
 <div class="container">
 
-    <h1>$ALPHX – Pump.fun 🟢 vs Four.meme 🔵</h1>
+    <h1>Pump.fun 🟢 vs Four.meme 🔵</h1>
 
-    <div class="row">
+    <div class="row">
 
-        <!-- LEFT: PUMP -->
-        <div class="col">
-            <div class="logo-box">
-                <img src="logo-pump-alphx.png" alt="Pump Logo">
-            </div>
+                <div class="col">
+            <div class="logo-box">
+                <img src="logo-pump-alphx.png" alt="Pump Logo">
+            </div>
 
-            <h2>PUMP! Live Chart 🟢</h2>
+            <h2>PUMP! Live Chart 🟢</h2>
 
-            <!-- FUNCTIONING dummy chart -->
-            <iframe src="https://birdeye.so/tvl-widget/7vfCXTUXf1dEWYZ9wyzx1m9DHAnvfeWiXAWC1XC5z4cm?chain=solana"></iframe>
+                        <iframe src="https://birdeye.so/tvl-widget/7vfCXTUXf1dEWYZ9wyzx1m9DHAnvfeWiXAWC1XC5z4cm?chain=solana"></iframe>
 
-            <div class="copy-box" onclick="copyText('pumpAddress')" id="pumpAddress">
-                PUMP_FUN_CONTRACT_PLACEHOLDER
-            </div>
+            <div class="copy-box" onclick="copyText('pumpAddress')" id="pumpAddress">
+                PUMP_FUN_CONTRACT_PLACEHOLDER
+            </div>
 
-            <a class="btn" href="#" target="_blank">Buy on Pump.fun</a>
-        </div>
+            <a class="btn" href="#" target="_blank">Buy on Pump.fun</a>
+        </div>
 
-        <!-- RIGHT: FOUR -->
-        <div class="col">
-            <div class="logo-box">
-                <img src="logo-four-alphx.png" alt="Four Logo">
-            </div>
+                <div class="col">
+            <div class="logo-box">
+                <img src="logo-four-alphx.png" alt="Four Logo">
+            </div>
 
-            <h2>FOUR! Live Chart 🔵</h2>
+            <h2>FOUR! Live Chart 🔵</h2>
 
-            <!-- ALWAYS WORKING DUMMY CHART -->
-            <iframe src="https://birdeye.so/tvl-widget/So11111111111111111111111111111111111111112?chain=solana"></iframe>
+                        <iframe src="https://birdeye.so/tvl-widget/So11111111111111111111111111111111111111112?chain=solana"></iframe>
 
-            <div class="copy-box" onclick="copyText('fourAddress')" id="fourAddress">
-                FOUR_MEME_CONTRACT_PLACEHOLDER
-            </div>
+            <div class="copy-box" onclick="copyText('fourAddress')" id="fourAddress">
+                FOUR_MEME_CONTRACT_PLACEHOLDER
+            </div>
 
-            <a class="btn btn-blue" href="#" target="_blank">Buy on Four.meme</a>
-        </div>
+            <a class="btn btn-blue" href="#" target="_blank">Buy on Four.meme</a>
+        </div>
 
-    </div>
+    </div>
 </div>
 
 <script>
 function copyText(id){
-    let el = document.getElementById(id).textContent;
-    navigator.clipboard.writeText(el);
+    let el = document.getElementById(id).textContent;
+    navigator.clipboard.writeText(el);
 }
 </script>
 
