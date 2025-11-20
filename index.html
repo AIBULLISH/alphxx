@@ -13,12 +13,12 @@
         font-family:Arial, sans-serif;
     }
 
-    /* TOP BANNER */
-    .top-banner img {
-        width:100%;
-        height:auto;
-        display:block;
-        margin:0 auto;
+    .top-banner video { /* Jetzt das Video-Element stylen */
+    width:100%;
+    height:auto; /* Oder 'height: 100vh; object-fit: cover;' für Vollbild */
+    display:block;
+    margin:0 auto;
+        
     }
 
     .container {
@@ -137,9 +137,11 @@
 
 <body>
 
-<!-- TOP BANNER -->
 <div class="top-banner">
-    <img src="alphx-banner.png" alt="ALPHX Banner">
+    <video autoplay loop muted playsinline class="banner-video">
+        <source src="alphx-banner-video.mp4" type="video/mp4">
+        Dein Browser unterstützt das Video-Tag nicht.
+    </video>
 </div>
 
 <div class="container">
@@ -194,6 +196,7 @@ function copyText(id){
 
 </body>
 </html>
+
 
 
 
